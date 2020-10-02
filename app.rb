@@ -1,5 +1,5 @@
 require_relative 'config/environment'
- set :session_secret, "what"
+ set :session_secret, "secret"
 
 class App < Sinatra::Base
   get '/' do 
